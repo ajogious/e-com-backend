@@ -1,46 +1,25 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# === Build Artifacts ===
+/target/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# === IDE / Editor Files ===
+.idea/
+*.iml
 .vscode/
 
-### Logs ###
-*.log
-
-### OS ###
+# === OS Junk Files ===
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-### Spring Boot config (keep example files only) ###
+# === Logs ===
+*.log
+
+# === Environment / Secrets ===
+.env
 application-*.yml
 application-*.yaml
 application-*.properties
+
+# === Maven Wrapper Binary ===
+.mvn/wrapper/maven-wrapper.jar
